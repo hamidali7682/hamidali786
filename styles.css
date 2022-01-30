@@ -1,0 +1,142 @@
+/* Header/logo Title */
+
+.header { 
+    padding: 23px;
+    text-align: center;
+    background: crimson;
+    background-position: fixed;
+    color: white;
+  }
+/* hr{
+  border: 1px dashed green;
+  width: 10%;
+ 
+} */
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+  }
+  h2{
+    color: crimson;
+    text-decoration: none;
+    text-align: start;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h3{
+    color: #042e72;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h5{
+    font-size: 16px;
+    text-align: start;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #0300cc;
+}
+.name_heading{
+    font-family:'Merriweather', Verdana, Geneva, Tahoma, sans-serif;
+}
+.education{
+    background-color: #7911be; 
+    padding: 8px;
+    color:aliceblue;
+}
+
+body {
+  margin: 0;
+}
+ul.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #faf9f9;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  
+}
+
+ul.sidenav li a {
+  display: block;
+  color: rgb(251, 251, 251);
+  background: crimson;
+  border: 1px solid rgb(250, 249, 249);
+  
+  padding: 8px;
+  text-align: justify;
+  padding: 5px 12px;
+  text-decoration: none;
+}
+ 
+ul.sidenav li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+ul.sidenav li a:hover:not(.active) {
+  background-color: crimson;
+  color: white;
+}
+
+div.content {
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 900px) {
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: justify;
+  }
+  
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  ul.sidenav li a {
+    text-align: center;
+   
+    float: none;
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
